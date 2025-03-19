@@ -4,7 +4,7 @@ import { Layout } from './components';
 
 function App() {
   return (
-    <div>
+    <div className="dark h-screen bg-background text-primary p-5 overflow-hidden">
       <Routes>
         <Route element={<Layout />}>
             <Route index element={<Space />} />
