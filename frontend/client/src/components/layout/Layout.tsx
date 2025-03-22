@@ -1,4 +1,5 @@
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
+import { Separator } from '@/components/ui/separator';
 import { Outlet } from 'react-router'
 import { Header, AppSidebar } from '../../components'
 
@@ -12,6 +13,7 @@ const Layout = () => {
                         <SidebarTrigger className="scale-140" />
                         <Header />
                     </div>
+                    <Separator className="my-3"/>
                     <Outlet />
                 </main>
             </SidebarProvider>

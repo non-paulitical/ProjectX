@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router';
-import { Space, Thread } from './pages';
+import { Spaces, Space, Thread } from './pages';
 import { Layout } from './components';
 
 function App() {
   return (
-    <div className="dark h-screen bg-background text-primary p-5 overflow-hidden">
+    <div className="dark h-full bg-background text-primary p-5">
       <Routes>
         <Route element={<Layout />}>
-            <Route index element={<Space />} />
+            <Route index element={<Spaces />} />
             <Route path='/space/:spaceId' element={<Space />}/>
             <Route path='/thread/:threadId' element={<Thread />} />
         </Route>
