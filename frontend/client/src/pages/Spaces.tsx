@@ -11,6 +11,7 @@ import { Label } from '@/components/ui/label'
 import { Input } from '@/components/ui/input'
 import { Button } from "@/components/ui/button"
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
+import { Link } from 'react-router'
 
 const Spaces = () => {
     return (
@@ -46,76 +47,93 @@ const Spaces = () => {
                     </CardFooter>
                 </Card>
             </section>
-            <ScrollArea className='lg:w-9/10 mx-auto w-full overflow-auto'>
-                <section className="mt-5 pb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center">
-                    <Card className='space-card'>
-                        <CardHeader>
-                            <CardTitle>Space 1</CardTitle>
-                            <CardDescription>Modular learning</CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                            <p>
-                            </p>
-                        </CardContent>
-                        <CardFooter>
-                            <p>Creation Time</p>
-                        </CardFooter>
-                    </Card>
-                    <Card className='space-card'>
-                        <CardHeader>
-                            <CardTitle>Space 2</CardTitle>
-                            <CardDescription>Modular learning</CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                            <p>
-                            </p>
-                        </CardContent>
-                        <CardFooter>
-                            <p>Creation Time</p>
-                        </CardFooter>
-                    </Card>
-                    <Card className='space-card'>
-                        <CardHeader>
-                            <CardTitle>Space 1</CardTitle>
-                            <CardDescription>Modular learning</CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                            <p>
-                            </p>
-                        </CardContent>
-                        <CardFooter>
-                            <p>Creation Time</p>
-                        </CardFooter>
-                    </Card>
-                    <Card className='space-card'>
-                        <CardHeader>
-                            <CardTitle>Space 2</CardTitle>
-                            <CardDescription>Modular learning</CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                            <p>
-                            </p>
-                        </CardContent>
-                        <CardFooter>
-                            <p>Creation Time</p>
-                        </CardFooter>
-                    </Card>
-                    <Card className='space-card'>
-                        <CardHeader>
-                            <CardTitle>Space 1</CardTitle>
-                            <CardDescription>Modular learning</CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                            <p>
-                            </p>
-                        </CardContent>
-                        <CardFooter>
-                            <p>Creation Time</p>
-                        </CardFooter>
-                    </Card>
-                </section>
-                <ScrollBar />
-            </ScrollArea>
+            <section>
+                <ScrollArea className='lg:w-9/10 mx-auto h-[calc(100vh-300px)] w-full pt-3 pb-20'>
+                    <div className="mt-5 pb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center">
+                        <Link className='space-card' to='thread/physics'>
+                            <Card>
+                                <CardHeader>
+                                    <CardTitle>Physics</CardTitle>
+                                    <CardDescription>Modular learning</CardDescription>
+                                </CardHeader>
+                                <CardContent>
+                                    <p>
+                                    </p>
+                                </CardContent>
+                                <CardFooter>
+                                    <p>28/03/25 at 1200</p>
+                                </CardFooter>
+                            </Card>
+                        </Link>
+                        <Card className='space-card'>
+                            <CardHeader>
+                                <CardTitle>Mathematics</CardTitle>
+                                <CardDescription>Modular learning</CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                                <p>
+                                </p>
+                            </CardContent>
+                            <CardFooter>
+                                <p>28/03/25 at 1200</p>
+                            </CardFooter>
+                        </Card>
+                        <Card className='space-card'>
+                            <CardHeader>
+                                <CardTitle>JavaScript</CardTitle>
+                                <CardDescription>Modular learning</CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                                <p>
+                                </p>
+                            </CardContent>
+                            <CardFooter>
+                                <p>28/03/25 at 1200</p>
+                            </CardFooter>
+                        </Card>
+                        <Card className='space-card'>
+                            <CardHeader>
+                                <CardTitle>Python</CardTitle>
+                                <CardDescription>Modular learning</CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                                <p>
+                                </p>
+                            </CardContent>
+                            <CardFooter>
+                                <p>28/03/25 at 1200</p>
+                            </CardFooter>
+                        </Card>
+                        <Card className='space-card'>
+                            <CardHeader>
+                                <CardTitle>Chemistry</CardTitle>
+                                <CardDescription>Modular learning</CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                                <p>
+                                </p>
+                            </CardContent>
+                            <CardFooter>
+                                <p>28/03/25 at 1201</p>
+                            </CardFooter>
+                        </Card>
+                        <Card className='space-card'>
+                            <CardHeader>
+                                <CardTitle>Literature</CardTitle>
+                                <CardDescription>Modular learning</CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                                <p>
+                                </p>
+                            </CardContent>
+                            <CardFooter>
+                                <p>28/03/25 at 1201</p>
+                            </CardFooter>
+                        </Card>
+                    </div>
+                    <ScrollBar />
+                </ScrollArea>
+            </section>
         </main >
     )
 }

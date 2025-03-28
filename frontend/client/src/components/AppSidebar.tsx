@@ -14,13 +14,13 @@ const AppSidebar = () => {
             <SidebarGroup>
               <SidebarGroupLabel asChild className='text-md'>
                 <CollapsibleTrigger>
-                  <h4>Space 1</h4>
+                  <h4>Physics</h4>
                   <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
                 </CollapsibleTrigger>
               </SidebarGroupLabel>
               <CollapsibleContent>
                 <SidebarGroupContent className='w-fit relative left-4'>
-                  Thread 1
+                  Research
                 </SidebarGroupContent>
               </CollapsibleContent>
             </SidebarGroup>
@@ -29,13 +29,23 @@ const AppSidebar = () => {
             <SidebarGroup>
               <SidebarGroupLabel asChild className='text-md'>
                 <CollapsibleTrigger>
-                  <h4>Space 2</h4>
+                  <h4>Mathematics</h4>
                   <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
                 </CollapsibleTrigger>
               </SidebarGroupLabel>
               <CollapsibleContent>
                 <SidebarGroupContent className='w-fit relative left-4'>
-                  Thread 1
+                  Linear Algebra
+                </SidebarGroupContent>
+              </CollapsibleContent>
+              <CollapsibleContent>
+                <SidebarGroupContent className='w-fit relative left-4'>
+                  Calculus
+                </SidebarGroupContent>
+              </CollapsibleContent>
+              <CollapsibleContent>
+                <SidebarGroupContent className='w-fit relative left-4'>
+                  Prob & stats
                 </SidebarGroupContent>
               </CollapsibleContent>
             </SidebarGroup>
@@ -44,13 +54,58 @@ const AppSidebar = () => {
             <SidebarGroup>
               <SidebarGroupLabel asChild className='text-md'>
                 <CollapsibleTrigger>
-                  <h4>Space 3</h4>
+                  <h4>JavaScript</h4>
                   <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
                 </CollapsibleTrigger>
               </SidebarGroupLabel>
               <CollapsibleContent>
                 <SidebarGroupContent className='w-fit relative left-4'>
-                  Thread 1
+                  Event Loop
+                </SidebarGroupContent>
+              </CollapsibleContent>
+            </SidebarGroup>
+          </Collapsible>
+          <Collapsible className="group/collapsible">
+            <SidebarGroup>
+              <SidebarGroupLabel asChild className='text-md'>
+                <CollapsibleTrigger>
+                  <h4>Python</h4>
+                  <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
+                </CollapsibleTrigger>
+              </SidebarGroupLabel>
+              <CollapsibleContent>
+                <SidebarGroupContent className='w-fit relative left-4'>
+                  FastAPI
+                </SidebarGroupContent>
+              </CollapsibleContent>
+            </SidebarGroup>
+          </Collapsible>
+          <Collapsible className="group/collapsible">
+            <SidebarGroup>
+              <SidebarGroupLabel asChild className='text-md'>
+                <CollapsibleTrigger>
+                  <h4>Chemistry</h4>
+                  <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
+                </CollapsibleTrigger>
+              </SidebarGroupLabel>
+              <CollapsibleContent>
+                <SidebarGroupContent className='w-fit relative left-4'>
+                  Haloalkanes and Haloarenes
+                </SidebarGroupContent>
+              </CollapsibleContent>
+            </SidebarGroup>
+          </Collapsible>
+          <Collapsible className="group/collapsible">
+            <SidebarGroup>
+              <SidebarGroupLabel asChild className='text-md'>
+                <CollapsibleTrigger>
+                  <h4>Literature</h4>
+                  <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
+                </CollapsibleTrigger>
+              </SidebarGroupLabel>
+              <CollapsibleContent>
+                <SidebarGroupContent className='w-fit relative left-4'>
+                  1984
                 </SidebarGroupContent>
               </CollapsibleContent>
             </SidebarGroup>

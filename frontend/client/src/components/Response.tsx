@@ -9,10 +9,12 @@ interface VideoSource {
 
 const Response = ({ response }: VideoSource) => {
   return (
-    <MediaPlayer aspectRatio='16/9' src={response}>
-      <MediaProvider />
-      <DefaultVideoLayout icons={defaultLayoutIcons} />
-    </MediaPlayer>
+    <div className='lg:w-[720px]'>
+      <MediaPlayer aspectRatio='16/9' loop src={response}>
+        <MediaProvider />
+        <DefaultVideoLayout icons={defaultLayoutIcons} />
+      </MediaPlayer>
+    </div>
   )
 }
 

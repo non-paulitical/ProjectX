@@ -3,7 +3,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { ScrollArea} from "@/components/ui/scroll-area"
 import { Send } from 'lucide-react'
 import { QueryResponse } from '../components'
-import { laserVideo } from '../assets/video'
+import { laserVideo, coinSizedBlackHole, shadowFasterThanLight, spaceWithoutSpacesuit, teethRadioactivity } from '../assets/video'
 import { useState } from 'react'
 
 const Thread = () => {
@@ -19,12 +19,10 @@ const Thread = () => {
           <ScrollArea className='h-[calc(100vh-170px)]'>
           <div className='chats gap-5 lg:flex lg:flex-col lg:items-center'>
             <QueryResponse query='How do lasers work?' response={laserVideo} />
-            <QueryResponse query='How do lasers work?' response={laserVideo} />
-            <QueryResponse query='How do lasers work?' response={laserVideo} />
-            <QueryResponse query='How do lasers work?' response={laserVideo} />
-            <QueryResponse query='How do lasers work?' response={laserVideo} />
-            <QueryResponse query='How do lasers work?' response={laserVideo} />
-            <QueryResponse query='How do lasers work?' response={laserVideo} />
+            <QueryResponse query='How deadly is a coin-sized black hole?' response={coinSizedBlackHole} />
+            <QueryResponse query='How radioactive is our teeth?' response={teethRadioactivity} />
+            <QueryResponse query='Are shadows faster than light?' response={shadowFasterThanLight} />
+            <QueryResponse query='What will happen if I enter the space without a spacesuit?' response={spaceWithoutSpacesuit} />
           </div>
         </ScrollArea>
       </section>
