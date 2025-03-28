@@ -1,0 +1,1 @@
+export {default as laserVideo} from './laser-video.mp4'
