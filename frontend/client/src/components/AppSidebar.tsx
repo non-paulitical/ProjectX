@@ -1,8 +1,12 @@
 import { ChevronDown } from 'lucide-react';
 import { Sidebar, SidebarHeader, SidebarContent, SidebarGroup, SidebarGroupLabel, SidebarGroupContent } from "@/components/ui/sidebar"
 import { Collapsible, CollapsibleTrigger, CollapsibleContent } from '@/components/ui/collapsible';
+import { Button } from '@/components/ui/button'
+import { useAuth0 } from '@auth0/auth0-react'
 
 const AppSidebar = () => {
+  const { logout } = useAuth0()
+
   return (
     <aside>
       <Sidebar>
@@ -111,6 +115,7 @@ const AppSidebar = () => {
             </SidebarGroup>
           </Collapsible>
         </SidebarContent>
+        <Button onClick={() => logout({ logoutParams: { returnTo: import.meta.env.VITE_BASE_URL + '/app/thread/guest' } })}>Log out</Button>
       </Sidebar>
     </aside>
   )

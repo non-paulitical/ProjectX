@@ -1,5 +1,0 @@
-export {default as laserVideo} from './laser-video.mp4'
-export {default as coinSizedBlackHole} from './coin-sized-black-hole.mp4'
-export {default as shadowFasterThanLight} from './shadow-faster-than-light.mp4'
-export {default as spaceWithoutSpacesuit} from './space-without-spacesuit.mp4'
-export {default as teethRadioactivity} from './teeth-radioactivity.mp4'

@@ -1,6 +1,11 @@
+import { LoginButton } from '../components'
+
 const Landing = () => {
+
   return (
-    <div>Landing</div>
+    <div>
+      <LoginButton />
+    </div >
   )
 }
 
