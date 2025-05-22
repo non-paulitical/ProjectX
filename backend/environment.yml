@@ -39,10 +39,14 @@ dependencies:
   - dav1d=1.2.1=hb547adb_0
   - decorator=5.2.1=pyhd8ed1ab_0
   - distlib=0.3.9=pyhd8ed1ab_1
+  - dnspython=2.4.2=py39hca03da5_0
   - dulwich=0.22.8=py39hc40b5db_0
+  - email-validator=2.2.0=pyhd8ed1ab_1
+  - email_validator=2.2.0=hd8ed1ab_1
   - exceptiongroup=1.3.0=pyhd8ed1ab_0
   - expat=2.7.0=h286801f_0
-  - fastapi=0.112.2=py39hca03da5_0
+  - fastapi=0.115.12=pyh29332c3_0
+  - fastapi-cli=0.0.7=pyhd8ed1ab_0
   - ffmpeg=6.1.1=gpl_h4f1e072_108
   - filelock=3.18.0=pyhd8ed1ab_0
   - findpython=0.6.3=pyhff2d567_0
@@ -70,6 +74,7 @@ dependencies:
   - harfbuzz=8.3.0=h8f0ba13_0
   - hpack=4.1.0=pyhd8ed1ab_0
   - httpcore=1.0.9=pyh29332c3_0
+  - httptools=0.6.4=py39h80987f9_0
   - httpx=0.28.1=pyhd8ed1ab_0
   - hyperframe=6.1.0=pyhd8ed1ab_0
   - icu=73.2=hc8870d7_0
@@ -80,6 +85,7 @@ dependencies:
   - jaraco.classes=3.4.0=pyhd8ed1ab_2
   - jaraco.context=6.0.1=pyhd8ed1ab_0
   - jaraco.functools=4.1.0=pyhd8ed1ab_0
+  - jinja2=3.1.6=py39hca03da5_0
   - keyring=25.6.0=pyh534df25_0
   - lame=3.100=h1a8c8d9_1003
   - lcms2=2.16=ha0e7c42_0
@@ -122,6 +128,7 @@ dependencies:
   - libtasn1=4.20.0=h5505292_0
   - libtiff=4.6.0=h07db509_3
   - libunistring=0.9.10=h3422bc3_0
+  - libuv=1.48.0=h80987f9_0
   - libvpx=1.14.1=h7bae524_0
   - libwebp-base=1.3.2=h93a5062_1
   - libxcb=1.15=hf346824_0
@@ -133,6 +140,7 @@ dependencies:
   - manimpango=0.5.0=py39h30e83f0_0
   - mapbox_earcut=1.0.0=py39haaf3ac1_5
   - markdown-it-py=3.0.0=pyhd8ed1ab_1
+  - markupsafe=3.0.2=py39h80987f9_0
   - mdurl=0.1.2=pyhd8ed1ab_1
   - moderngl=5.11.1=py39hc5ad87a_0
   - moderngl-window=3.1.1=pyh29332c3_1
@@ -180,8 +188,10 @@ dependencies:
   - pysocks=1.7.1=pyha55dd90_7
   - python=3.9.7=hc0da0df_3_cpython
   - python-build=1.2.2.post1=pyhff2d567_1
+  - python-dotenv=1.1.0=py39hca03da5_0
   - python-fastjsonschema=2.21.1=pyhd8ed1ab_0
   - python-installer=0.7.0=pyhff2d567_1
+  - python-multipart=0.0.20=py39hca03da5_0
   - python_abi=3.9=7_cp39
   - pyyaml=6.0.2=py39hefdd603_2
   - rapidfuzz=3.0.0=py39h23fbdae_0
@@ -189,6 +199,7 @@ dependencies:
   - requests=2.32.3=pyhd8ed1ab_1
   - requests-toolbelt=1.0.0=pyhd8ed1ab_1
   - rich=14.0.0=pyh29332c3_0
+  - rich-toolkit=0.11.3=pyh29332c3_0
   - rsa=4.7.2=pyhd3eb1b0_1
   - scipy=1.13.1=py39hd336fd7_1
   - screeninfo=0.8.1=py39h2804cbe_2
@@ -200,7 +211,7 @@ dependencies:
   - soupsieve=2.7=pyhd8ed1ab_0
   - sqlite=3.45.3=h80987f9_0
   - srt=3.5.3=py39h2804cbe_0
-  - starlette=0.38.2=py39hca03da5_0
+  - starlette=0.46.2=py39hca03da5_0
   - svgelements=1.9.6=pyhd8ed1ab_0
   - svt-av1=2.0.0=h078ce10_0
   - tbb=2022.1.0=h9541205_0
@@ -209,12 +220,19 @@ dependencies:
   - tomlkit=0.13.2=pyha770c72_1
   - tqdm=4.67.1=pyhd8ed1ab_1
   - trove-classifiers=2025.5.9.12=pyhd8ed1ab_0
+  - typer=0.15.4=pyh9571d03_0
+  - typer-slim=0.15.4=pyhe01879c_0
+  - typer-slim-standard=0.15.4=haa4fddc_0
   - typing-extensions=4.13.2=h0e9735f_0
   - typing_extensions=4.13.2=pyh29332c3_0
   - tzdata=2025b=h04d1e81_0
   - urllib3=2.4.0=pyhd8ed1ab_0
+  - uvicorn=0.32.1=py39hca03da5_0
+  - uvicorn-standard=0.32.1=py39hca03da5_0
+  - uvloop=0.21.0=py39h80987f9_0
   - virtualenv=20.31.2=pyhd8ed1ab_0
   - watchdog=2.3.1=py39h02fc5c5_0
+  - watchfiles=0.24.0=py39h2aea54e_2
   - websockets=15.0.1=py39hf3bc14e_0
   - wheel=0.45.1=py39hca03da5_0
   - x264=1!164.3095=h57fd34a_2
