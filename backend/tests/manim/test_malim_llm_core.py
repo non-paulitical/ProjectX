@@ -1,10 +1,10 @@
 from unittest import TestCase, main
-from app.manim_llm_core.main import createMedia, generate
+from app.manim_llm_core.main import create_media, generate
  
 class TestMain(TestCase):
 
     def test_create_media(self):
-        result = createMedia('manim.py')
+        result = create_media('manim.py')
         print(result)
         self.assertIsNotNone(result, 'The result is None.')
 
